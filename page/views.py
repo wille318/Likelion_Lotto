@@ -15,14 +15,14 @@ def result(request):
     #랜덤으로 6개
     import random
     rlist = []
-    for b in range(6):
+    for b in range(7):
         num2 = random.randrange(1,46)
         rlist.append(num2)
 
     #일치 개수
     count = 0
     for a in range(6):
-        for b in range(6):
+        for b in range(7):
             if(ulist[a] == rlist[b]) :
                 count += 1
     
