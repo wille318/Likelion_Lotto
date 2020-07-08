@@ -26,4 +26,4 @@ def result(request):
             if(ulist[a] == rlist[b]) :
                 count += 1
     
-    return render(request, 'result.html', {'number_list': ulist, 'random_list':rlist, 'count' : count}) ₩
+    return render(request, 'result.html', {'number_list': ulist, 'random_list':rlist, 'count' : count}) 
