@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>나를 소개해요.</title>
+    </head>
+    <body>
+        <h1> 김예빈을 소개합니다</h1>
+        <h2> 김예빈을 소개합니다</h2>
+
+        <form action="전송받을 대상">
+        아이디 : <input type="text" name="id">
+        비밀번호 : <input type="password" name="pw">
+        <input type="submit">
+        </form>
+        <br>
+
+        <img src = "snowman.jpg" width="300">
+        <br>
+        <form action="전송받을 대상">
+            <h2>나의 일기장</h2>
+            제목 : <input type="text" name="diarytitle"> <br>
+        
+            <select> 
+                <!-- 여러 선택할 수 있는 항목을 만들겠다. 원하는 옵션 만큼 넣으면 됨 -->
+                <option value="goodday">좋은 날</option>
+                <option value="sadday">슬픈 날</option>
+                <option value="soso">그저 그런 날</option> <!-- value의 입력 값을 서버가 알아듣게 하는 부분 -->
+            </select> <br>
+
+            내용 : <br> 
+            <textarea cols="30" rows="20"></textarea>
+            <input type="submit">
+        </form><br>
+
+        <h2>나의 일대기</h2>
+        <ol>
+            <!-- 순서가 있는 리스트 -->
+            <li><a href="1.html"> 유년기</li> <!-- 리스트 안에 링크를 걸고 싶은 경우. .html 파일이 같은 폴더 안에 있어야함.-->
+            <li>질풍노도의 시기</li>
+            <li>지금</li>
+        </ol>
+        <!-- 리스트 여러 개 만드는 단축키 : ol>li*개수 -->
+    </body>
+</html>
+

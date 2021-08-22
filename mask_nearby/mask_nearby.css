@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    height: 100vh; 
+    /* vh는 화면 높이를 100개로 나누었을 떄 부분  */
+    width: 100%;
+
+    background-color: black;
+}
+
+/* Navbar에 들어가는 CSS들 */
+#nav {
+    /*사이즈 설정 */
+    height: 60px; 
+    width: 100%;
+
+    /* 투명도 설정 */
+    opacity: 0.9;
+
+    /* 색 설정 */
+    background-color: rgb(117, 208, 231);
+
+    /* 위치 설정 */
+    position: relative;
+    z-index: 99;
+}
+
+.back-btn-wrapper {
+    /* 위치 설정 */
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.back-btn-wrapper > i{
+    font-size: 33px;
+    color: white;
+}
+/* Main에 들어가는 CSS들 */
+#main {
+    /* 사이즈 설정 */
+    height: 100vh; 
+    width: 100%;
+
+    /* 위치설정 : absolute : 절대적인 위치 */
+    position: absolute;
+    top: 0;
+    z-index: 2;
+
+    background: white;
+}
+
+#main > #map {
+    width: 100%;
+    height: 100vh;
+}
+
+/* mian searchbar Css들 */
